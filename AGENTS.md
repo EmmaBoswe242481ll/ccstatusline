@@ -79,6 +79,6 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 
 ## Personal Notes
 
-> Forked for personal use. My main customization goal is to tweak the token usage warning
-> thresholds — I prefer to see warnings earlier (at 60% instead of the default 80%) since
-> I tend to work in long sessions. See `src/utils/renderer.ts` for the relevant constants.
+> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
+> My config lives at `~/.config/ccstatusline/settings.json` — back it up before running `bun run build`.
+> I use this with kitty terminal + a Nerd Font, so powerline separators work out of the box.
